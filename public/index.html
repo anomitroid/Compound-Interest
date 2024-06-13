@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator with Live Suggestions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "work.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Compound Interest Calculator with Live Suggestions</h2>
+        <form id="compoundInterestForm">
+            <div class="form-group">
+                <label for="principal">Principal Amount ($):</label>
+                <input type="number" id="principal" name="principal">
+            </div>
+            <div class="form-group">
+                <label for="rate">Annual Interest Rate (%):</label>
+                <input type="number" id="rate" name="rate" step="0.01">
+            </div>
+            <div class="form-group">
+                <label for="timesCompounded">Times Compounded Per Year:</label>
+                <input type="number" id="timesCompounded" name="timesCompounded">
+            </div>
+            <div class="form-group">
+                <label for="years">Number of Years:</label>
+                <input type="number" id="years" name="years">
+            </div>
+            <div class="form-group">
+                <label for="finalAmount">Final Amount ($):</label>
+                <input type="number" id="finalAmount" name="finalAmount">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
